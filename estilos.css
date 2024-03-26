@@ -22,7 +22,7 @@ body {
 .colunas{
     display: grid;
     padding: 100px 0;
-    grid-template-columns: 33% 33% ;
+    grid-template-columns: 33% 33% 33%;
     background-color: aqua;
 }
 
