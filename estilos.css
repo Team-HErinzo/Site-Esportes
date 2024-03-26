@@ -31,12 +31,11 @@ body {
 }
 
 .colunas2{
-    margin-left: 50px;
-    padding: 20px;
-    border: 3px solid red;
-    border-radius: 20px;
-    background-color: blue;
-    
+    display: grid;
+    padding: 100px 0;
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(18, 199, 42);
+
   }
   
   .coluna2{
