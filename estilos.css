@@ -13,7 +13,7 @@ body {
 .titulo-principal {
     text-align: center;
     padding: 12px 0 0 0;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #ff720d;
 }
 
