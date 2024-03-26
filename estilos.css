@@ -29,3 +29,21 @@ body {
     border: 3px solid red;
     border-radius: 20px;
 }
+
+.colunas2{
+    position: relative;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 15% 20% 20% 20% 15%;
+    background-color: indianred;
+  }
+  
+  .coluna2{
+    
+    margin-left: 100px;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-color:cadetblue;
+  
+  }
