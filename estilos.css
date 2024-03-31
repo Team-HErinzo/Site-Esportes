@@ -1,3 +1,7 @@
+:root {
+    --fonte-principal: "Open Sans";
+}
+
 .cabecalho {
     text-align: center;
     display: flex;
@@ -14,37 +18,42 @@ body {
     justify-content: space-around;
     display: flex;
     text-align: center;
-    padding: 12px 0 0 0;
+    padding: 15px;
     color: rgb(0, 0, 0);
     background-color: #ff720d;
+    font-family: var(--fonte-principal);
+    font-size: larger;
+    color: white;
 }
 
-.colunas{
-    display: grid;
-    padding: 100px 0;
-    grid-template-columns: 33% 33% 33%;
-    background-color: aqua;
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-image: url(campo.jpg);
+    font-family: var(--fonte-principal);
 }
 
-.coluna{
-    margin-left: 50px;
+.coluna {
+    flex: 1;
     padding: 20px;
     border: 3px solid red;
     border-radius: 20px;
+    font-family: var(--fonte-principal);
+    max-width: calc(33.33% - 20px);
 }
 
-.colunas2{
-    display: grid;
-    padding: 100px 0;
-    grid-template-columns: 33% 33% 33%;
-    background-color: rgb(70, 228, 22);
-  }
-  
-  .coluna2{
-    
-  margin-left: 50px;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  
-  }
+.coluna-entrevista {
+    flex: 2;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+    font-family: var(--fonte-principal);
+    max-width: calc(66.66% - 20px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff720d;
+}
