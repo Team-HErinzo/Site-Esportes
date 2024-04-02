@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #422006;
 }
 
 .titulo-principal {
@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    background-image: url(campo.jpg);
     font-family: var(--fonte-principal);
 }
 
