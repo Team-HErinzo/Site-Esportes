@@ -26,34 +26,19 @@ body {
     color: white;
 }
 
-.colunas {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-    background-image: url(campo.jpg);
-    font-family: var(--fonte-principal);
-}
 
-.coluna {
+.colunas{
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: gray;
+    
+  }
+
+  .coluna {
     flex: 1;
     padding: 20px;
     border: 3px solid red;
     border-radius: 20px;
     font-family: var(--fonte-principal);
-    max-width: calc(33.33% - 20px);
-}
-
-.coluna-entrevista {
-    flex: 2;
-    padding: 20px;
-    border: 3px solid red;
-    border-radius: 20px;
-    font-family: var(--fonte-principal);
-    max-width: calc(66.66% - 20px);
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #ff720d;
-}
+  }
