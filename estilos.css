@@ -41,4 +41,12 @@ body {
     border: 3px solid red;
     border-radius: 20px;
     font-family: var(--fonte-principal);
+    width: 50%;
   }
+
+  
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff720d;
+}
